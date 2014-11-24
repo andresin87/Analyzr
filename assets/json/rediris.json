@@ -1,0 +1,830 @@
+{
+  "svg": [
+    {
+      "name": "Andalucía",
+      "img": "andalucia.svg",
+      "transform": ""
+    },
+    {
+      "name": "Aragón",
+      "img": "aragon.svg",
+      "transform": ""
+    },
+    {
+      "name": "Cantábria",
+      "img": "cantabria.svg",
+      "transform": ""
+    },
+    {
+      "name": "Castilla la Mancha",
+      "img": "castillalamancha.svg",
+      "transform": ""
+    },
+    {
+      "name": "Castilla y León",
+      "img": "castillayleon.svg",
+      "transform": ""
+    },
+    {
+      "name": "Cataluña",
+      "img": "cataluna.svg",
+      "transform": ""
+    },
+    {
+      "name": "Comunidad de Madrid",
+      "img": "comunidaddemadrid.svg",
+      "transform": ""
+    },
+    {
+      "name": "Comunidad Valenciana",
+      "img": "comunidadvalenciana.svg",
+      "transform": ""
+    },
+    {
+      "name": "Extremadura",
+      "img": "extremadura.svg",
+      "transform": ""
+    },
+    {
+      "name": "Galicia",
+      "img": "galicia.svg",
+      "transform": ""
+    },
+    {
+      "name": "Islas Baleares",
+      "img": "islasbaleares.svg",
+      "transform": ""
+    },
+    {
+      "name": "Islas Canarias",
+      "img": "islascanarias.svg",
+      "transform": ""
+    },
+    {
+      "name": "Navarra",
+      "img": "navarra.svg",
+      "transform": ""
+    },
+    {
+      "name": "País Vasco",
+      "img": "paisvasco.svg",
+      "transform": ""
+    },
+    {
+      "name": "Principado de Astúrias",
+      "img": "principadodeasturias.svg",
+      "transform": ""
+    },
+    {
+      "name": "Región de Múrcia",
+      "img": "regiondemurcia.svg",
+      "transform": ""
+    },
+    {
+      "name": "La Rioja",
+      "img": "rioja.svg",
+      "transform": ""
+    },
+    {
+      "name": "Francia",
+      "img": "francia.svg",
+      "transform": ""
+    },
+    {
+      "name": "Portugal",
+      "img": "portugal.svg",
+      "transform": ""
+    },
+    {
+      "name": "Andorra",
+      "img": "andorra.svg",
+      "transform": ""
+    },
+    {
+      "name": "Algeria",
+      "img": "algeria.svg",
+      "transform": ""
+    },
+    {
+      "name": "Marruecos",
+      "img": "marruecos.svg",
+      "transform": ""
+    },
+    {
+      "name": "Inglaterra",
+      "img": "inglaterra.svg",
+      "transform": ""
+    }
+  ],
+  "nodes": [
+    {
+      "name": "GAL",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "99",
+      "x": 235,
+      "y":50
+    },
+    {
+      "name": "AST",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "38",
+      "x": 355,
+      "y":10
+    },
+    {
+      "name": "CAB",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "11",
+      "x": 450,
+      "y":15
+    },
+    {
+      "name": "UVA",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "8",
+      "x": 400,
+      "y":120
+    },
+    {
+      "name": "CYL",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "55",
+      "x": 370,
+      "y":160
+    },
+    {
+      "name": "PAV",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "26",
+      "x": 520,
+      "y":20
+    },
+    {
+      "name": "NAV",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "17",
+      "x": 560,
+      "y":50
+    },
+    {
+      "name": "RIO",
+      "type": "as",
+      "r": 15,
+      "sel": 0,
+      "asn": "4",
+      "x": 520,
+      "y":80
+    },
+    {
+      "name": "UNIZAR",
+      "type": "router",
+      "r": 15,
+      "sel": 0,
+      "x": 590,
+      "y":130
+    },
+    {
+      "name": "ARA",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 620,
+      "y":100
+    },
+    {
+      "name": "CAT",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 730,
+      "y":135
+    },
+    {
+      "name": "CIEMAT",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 450,
+      "y":185
+    },
+    {
+      "name": "TELMAD",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 470,
+      "y":185
+    },
+    {
+      "name": "MAD",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 460,
+      "y":200
+    },
+    {
+      "name": "BAL",
+      "type": "router",
+      "r": 15,
+      "sel": 0,
+      "x": 820,
+      "y":220
+    },
+    {
+      "name": "UIB",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 775,
+      "y":245
+    },
+    {
+      "name": "UV",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 620,
+      "y":260
+    },
+    {
+      "name": "EXT",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 350,
+      "y":280
+    },
+    {
+      "name": "CLM",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 500,
+      "y":280
+    },
+    {
+      "name": "VAL",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 620,
+      "y":310
+    },
+    {
+      "name": "MUR",
+      "type": "router",
+      "r": 15,
+      "sel": 0,
+      "x": 570,
+      "y":340
+    },
+    {
+      "name": "AND",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 450,
+      "y":370
+    },
+    {
+      "name": "CICA",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 380,
+      "y":380
+    },
+    {
+      "name": "CAN-L",
+      "type": "router",
+      "r": 15,
+      "sel": 0,
+      "x": 285,
+      "y":470
+    },
+    {
+      "name": "ULPGC",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 215,
+      "y":495
+    },
+    {
+      "name": "IAC",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 170,
+      "y":470
+    },
+    {
+      "name": "CAN-T",
+      "type": "iface",
+      "r": 15,
+      "sel": 0,
+      "status": "up",
+      "x": 110,
+      "y":460
+    }
+  ],
+  "edges": [
+    {
+      "name": "GAL",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "GAL",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "AST",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CAB",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "PAV",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "PAV",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "RIO",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "NAV",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "ARA",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CAT",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CAT",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "GAL",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "RIO",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "PAV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "NAV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "ARA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "CAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "UIB",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UNIZAR",
+      "dest": "TELMAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "CYL",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "GAL",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "AST",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "CAB",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "PAV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UVA",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CYL",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "UVA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "TELMAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "MAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "CLM",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "EXT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CIEMAT",
+      "dest": "IAC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "TELMAD",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "TELMAD",
+      "dest": "IAC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "TELMAD",
+      "dest": "MAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "TELMAD",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "TELMAD",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "MAD",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "MAD",
+      "dest": "TELMAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UIB",
+      "dest": "UNIZAR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UIB",
+      "dest": "BAL",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UIB",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "BAL",
+      "dest": "UIB",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "TELMAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "CAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "UIB",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "VAL",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "MUR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "AND",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "UV",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "VAL",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "MUR",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "MUR",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CLM",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "AND",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "AND",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "EXT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "UV",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "AND",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "MUR",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CICA",
+      "dest": "ULPGC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "EXT",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "EXT",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CAN-L",
+      "dest": "ULPGC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "ULPGC",
+      "dest": "CICA",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "ULPGC",
+      "dest": "CAN-L",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "ULPGC",
+      "dest": "IAC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "ULPGC",
+      "dest": "IAC",
+      "status": "up",
+      "link": 2
+    },
+    {
+      "name": "IAC",
+      "dest": "CIEMAT",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "IAC",
+      "dest": "TELMAD",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "IAC",
+      "dest": "ULPGC",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "IAC",
+      "dest": "ULPGC",
+      "status": "up",
+      "link": 2
+    },
+    {
+      "name": "IAC",
+      "dest": "CAN-T",
+      "status": "up",
+      "link": 1
+    },
+    {
+      "name": "CAN-T",
+      "dest": "IAC",
+      "status": "up",
+      "link": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <style type="text/css">
+		#states path {
+		  fill: #ccc;
+		  stroke: #fff;
+		}
+    </style>
+  </head>
+  <body>
+    <h2>
+      <span>U.S. commercial airports</span>, 2008<br>
+      great arcs and symbol map
+    </h2>
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.csv.js"></script>
+    <script type="text/javascript" src="d3/d3.geo.js"></script>
+    <script type="text/javascript" src="d3/d3.geom.js"></script>
+    <script type="text/javascript">
+		var w = 1280,
+		    h = 800;
+		
+		var projection = d3.geo.azimuthal()
+		    .mode("equidistant")
+		    .origin([-98, 38])
+		    .scale(1400)
+		    .translate([640, 360]);
+		
+		var path = d3.geo.path()
+		    .projection(projection);
+		
+		var svg = d3.select("body").insert("svg:svg", "h2")
+		    .attr("width", w)
+		    .attr("height", h);
+		
+		var states = svg.append("svg:g")
+		    .attr("id", "states");
+		
+		d3.json("rediris.json", function(collection) {
+		
+		  var countries = new Array();
+		  var nodes = new Array();
+		  var edges = new Array();
+		  
+		  countries = collection.svg;
+		  nodes = collection.nodes;
+		  edges = collection.edges;
+		  			  
+		  for(var i = 0; i<countries.length; i++ ){
+		  	  var str;
+		  	  var x = new XMLHttpRequest(); 
+		  	  //console.log("http://www.creativesolutions.cat/projects/project/templates/content/diagrams/project/rediris/" + countries[i].img);
+			  x.open("GET","http://www.creativesolutions.cat/projects/project/templates/content/diagrams/project/rediris/" + countries[i].img,false);
+			  x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=ISO-8859-1') 
+			  x.send();
+			  str = x.responseText; 
+			  countries[i].svg = str;
+		  }
+		
+		  states.selectAll("path")
+		      .data(countries)
+		    .enter().append("svg:g")
+		      .attr("id", function(d){ return d.name; })
+			  .html(function(d){ return d.svg; });
+		});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+input[type='password'],input[type='text'],input[type='email'],textarea,select{height:3rem!important;}
+body{background: #eaeaea;}
+form{margin-bottom: 0 !important;}
+ul{margin-bottom: 0;font-size: 12px;}
+@media only screen and (max-width: 53.063em){.menu-wrapper{overflow-x:scroll;}}
+.tabs-content{margin-bottom: 0 !important;}
+.admin{background:#fff;padding-top:15px;border:1px solid #ccc;}
+.button{font-weight:bold;}
+.crop_save{display: none; margin-top: 10px;margin-bottom: 0;float:right;}
+.crop_upload input{opacity: 0;position: absolute;top: 0;left: 0;height: 100%;}
+.menu-wrapper{overflow:auto;background: #8A8A8A; }
+.reveal-modal {height: auto;min-height: initial;}
+.secondary {background-color: rgb(140, 140, 140) !important;color:white !important;}
+.label{font-weight: bold;}
+.medium{font-size: 25px;color: rgb(80, 80, 80);}
+.hidden{display: none;}
+.border{border-top: 1px solid #c8c8c8;padding-top: 15px;}
+.tabs dd > a:hover {background: #FFFFFF;color: #222222;}
+.tabs dd > a {background: #8A8A8A;color: #FFFFFF;}
+.tabs dd.active a {background: #FFFFFF;color: black;}
+.captcha_input{margin-bottom: 0 !important;}
+.captcha_btn{float: right;font-size: 12px;padding-top: 5px;padding-bottom: 5px;}
+.captcha_img{width: auto !important;height: 57px;background-color: white;text-align: center;}
+.link{color: #777;}
+.orspan{margin-left: 5px;margin-right: 5px;}
+.links{text-align: center;font-size: 15px;  color: #777;font-style: italic;  }
+.headertext{text-align: center;font-size: 12px;  color: #777;font-style: italic;padding-top: 4px;}
+.headerband{padding-top: 50px;padding-bottom: 50px;}
+.image{margin: 0 auto;display: block; }
+.or{margin-bottom:20px; }
+.remember{font-size: 12px;color: #777;font-style: italic;}
+.buttonFacebook{background-color: #516ba2;}
+.buttonFacebook:hover,.buttonFacebook:focus{background-color: #435b8d;}
+.buttonGoogle{background-color: #d95333;}
+.buttonGoogle:hover,.buttonGoogle:focus{background-color: #d53812;}
+.buttonTwitter{background-color: #55acee;}
+.buttonTwitter:hover,.buttonTwitter:focus{background-color: #3b88c3;}
